@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName">SHOPCO</string>
+  <string name="Email">E-mail</string>
+  <string name="Pass">Pass</string>
+  <string name="logIn">Log In</string>
+  <string name="EnterEmails">Enter Email</string>
+</resources>

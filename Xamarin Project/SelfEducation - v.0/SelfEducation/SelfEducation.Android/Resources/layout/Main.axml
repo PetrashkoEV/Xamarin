@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/layoutContainer"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.15" />
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.7">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Row">
+                <TextView
+                    android:text="@string/Email"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/textViewEmail"
+                    android:layout_width="61.8dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center" />
+                <EditText
+                    android:inputType="textEmailAddress"
+                    android:id="@+id/editTextEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Row">
+                <TextView
+                    android:text="@string/Pass"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/textViewPass"
+                    android:layout_width="61.8dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center" />
+                <EditText
+                    android:inputType="textPassword"
+                    android:id="@+id/editTextPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Row">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/LogIn"
+                    android:text="@string/logIn" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.15" />
+</LinearLayout>
