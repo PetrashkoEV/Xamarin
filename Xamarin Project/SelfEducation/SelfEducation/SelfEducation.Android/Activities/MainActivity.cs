@@ -2,12 +2,16 @@
 using Android.Content;
 using Android.OS;
 using Android.Widget;
+using Microsoft.Practices.ServiceLocation;
+using SelfEducation.Business.Private;
 
 namespace SelfEducation.Android.Activities
 {
-    [Activity(Label = "@string/ApplicationName", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "@string/ApplicationName", MainLauncher = true)]
     public class MainActivity : Activity
     {
+        private readonly ILogInService _logInService = ServiceLocator.Current.GetInstance<ILogInService>();
+
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
