@@ -2,12 +2,16 @@
 using System.Drawing;
 
 using Foundation;
+using Microsoft.Practices.ServiceLocation;
+using SelfEducation.Business.Private;
 using UIKit;
 
 namespace SelfEducation.iOS
 {
     public partial class RootViewController : UIViewController
     {
+        private readonly ILogInService _logInService = ServiceLocator.Current.GetInstance<ILogInService>();
+
         public RootViewController(IntPtr handle)
             : base(handle)
         {
@@ -26,7 +30,6 @@ namespace SelfEducation.iOS
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
-            
             // Perform any additional setup after loading the view, typically from a nib.
         }
 
