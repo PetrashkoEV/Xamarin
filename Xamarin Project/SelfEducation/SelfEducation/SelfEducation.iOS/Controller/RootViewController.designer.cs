@@ -9,7 +9,7 @@ using System;
 using System.CodeDom.Compiler;
 using UIKit;
 
-namespace SelfEducation.iOS
+namespace SelfEducation.iOS.Controller
 {
 	[Register ("RootViewController")]
 	partial class RootViewController

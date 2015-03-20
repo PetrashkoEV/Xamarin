@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Drawing;
-
-using Foundation;
 using Microsoft.Practices.ServiceLocation;
 using SelfEducation.Business.Private;
 using UIKit;
 
-namespace SelfEducation.iOS
+namespace SelfEducation.iOS.Controller
 {
     public partial class RootViewController : UIViewController
     {
@@ -31,6 +28,11 @@ namespace SelfEducation.iOS
         {
             base.ViewDidLoad();
             // Perform any additional setup after loading the view, typically from a nib.
+            LogInButton.TouchUpInside += (object sender, EventArgs e) =>
+            {
+                var login = logInText.Text;
+                var pass = PasswordText.Text;
+            };
         }
 
         public override void ViewWillAppear(bool animated)

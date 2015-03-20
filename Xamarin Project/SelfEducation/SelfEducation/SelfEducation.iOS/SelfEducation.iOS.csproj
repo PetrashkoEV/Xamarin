@@ -92,11 +92,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="RootViewController.designer.cs">
+    <Compile Include="Controller\RootViewController.designer.cs">
       <DependentUpon>RootViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="RootViewController.cs" />
-    <InterfaceDefinition Include="MainStoryboard.storyboard" />
+    <Compile Include="Controller\RootViewController.cs" />
+    <InterfaceDefinition Include="Storyboard\MainStoryboard.storyboard" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Autofac">
