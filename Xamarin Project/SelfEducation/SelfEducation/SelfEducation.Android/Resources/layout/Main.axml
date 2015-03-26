@@ -51,7 +51,8 @@
                     android:inputType="textPassword"
                     android:id="@+id/editTextPass"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent"
+                    android:password="true" />
             </LinearLayout>
             <LinearLayout
                 android:orientation="horizontal"

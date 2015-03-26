@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using Microsoft.Practices.ServiceLocation;
+using SelfEducation.Business;
 using UIKit;
 
 namespace SelfEducation.iOS
@@ -19,6 +21,14 @@ namespace SelfEducation.iOS
         {
             get;
             set;
+        }
+
+        public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
+        {
+            // todo: e.petrashko set IoC contaner
+            var locator = new DefaultServiceLocator(new IosInjectModule());
+            ServiceLocator.SetLocatorProvider(() => locator);
+            return true;
         }
 
         //

@@ -26,6 +26,8 @@ namespace SelfEducation.Android
 		
 		public static void UpdateIdValues()
 		{
+			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.ApplicationName = global::SelfEducation.Android.Resource.String.ApplicationName;
+			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.Hello = global::SelfEducation.Android.Resource.String.Hello;
 		}
 		
 		public partial class Attribute
@@ -44,17 +46,17 @@ namespace SelfEducation.Android
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f040000
-			public const int my_blue = 2130968576;
+			// aapt resource value: 0x7f050000
+			public const int my_blue = 2131034112;
 			
-			// aapt resource value: 0x7f040003
-			public const int my_gray = 2130968579;
+			// aapt resource value: 0x7f050003
+			public const int my_gray = 2131034115;
 			
-			// aapt resource value: 0x7f040001
-			public const int my_green = 2130968577;
+			// aapt resource value: 0x7f050001
+			public const int my_green = 2131034113;
 			
-			// aapt resource value: 0x7f040002
-			public const int my_purple = 2130968578;
+			// aapt resource value: 0x7f050002
+			public const int my_purple = 2131034114;
 			
 			static Color()
 			{
@@ -144,20 +146,23 @@ namespace SelfEducation.Android
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int ApplicationName = 2131034112;
+			// aapt resource value: 0x7f040001
+			public const int ApplicationName = 2130968577;
 			
-			// aapt resource value: 0x7f050001
-			public const int Email = 2131034113;
+			// aapt resource value: 0x7f040002
+			public const int Email = 2130968578;
 			
-			// aapt resource value: 0x7f050004
-			public const int EnterEmails = 2131034116;
+			// aapt resource value: 0x7f040005
+			public const int EnterEmails = 2130968581;
 			
-			// aapt resource value: 0x7f050002
-			public const int Pass = 2131034114;
+			// aapt resource value: 0x7f040000
+			public const int Hello = 2130968576;
 			
-			// aapt resource value: 0x7f050003
-			public const int logIn = 2131034115;
+			// aapt resource value: 0x7f040003
+			public const int Pass = 2130968579;
+			
+			// aapt resource value: 0x7f040004
+			public const int logIn = 2130968580;
 			
 			static String()
 			{
