@@ -1,4 +1,5 @@
-﻿using SQLite.Net.Attributes;
+﻿using SelfEducation.Business.Data.Contracts.Private;
+using SQLite.Net.Attributes;
 
 namespace SelfEducation.Business.Data.Contracts
 {

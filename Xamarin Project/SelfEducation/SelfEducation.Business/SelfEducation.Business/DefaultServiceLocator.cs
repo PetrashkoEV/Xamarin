@@ -15,11 +15,12 @@ namespace SelfEducation.Business
         {
             var builder = new ContainerBuilder();
 
-            builder.RegisterModule(new DefaultModule());
+            
             foreach (var s in platformModule)
             {
                 builder.RegisterModule(s);
             }
+            builder.RegisterModule(new DefaultModule());
 
             _container = builder.Build();
         }
@@ -32,14 +33,6 @@ namespace SelfEducation.Business
         protected override IEnumerable<object> DoGetAllInstances(Type serviceType)
         {
             throw new NotImplementedException();
-        }
-    }
-
-    public class DefaultModule : Module
-    {
-        protected override void Load(ContainerBuilder builder)
-        {
-            builder.RegisterType<LogInService>().As<ILogInService>();
         }
     }
 }

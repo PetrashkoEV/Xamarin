@@ -1,4 +1,4 @@
-﻿namespace SelfEducation.Business.Data.Contracts
+﻿namespace SelfEducation.Business.Data.Contracts.Private
 {
     public interface IEntity
     {

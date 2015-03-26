@@ -35,7 +35,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Data\Contracts\Entity.cs" />
-    <Compile Include="Data\Contracts\IEntity.cs" />
+    <Compile Include="Data\Contracts\Private\IDbLocation.cs" />
+    <Compile Include="Data\Contracts\Private\IEntity.cs" />
+    <Compile Include="Data\Entities\CurrencyEntity.cs" />
+    <Compile Include="Data\Repository\Private\IRepository.cs" />
+    <Compile Include="Data\Repository\Repository.cs" />
+    <Compile Include="DefaultModule.cs" />
     <Compile Include="DefaultServiceLocator.cs" />
     <Compile Include="Private\ILogInService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -56,7 +61,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Data\Entities\" />
+    <Folder Include="Data\Services\Context\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

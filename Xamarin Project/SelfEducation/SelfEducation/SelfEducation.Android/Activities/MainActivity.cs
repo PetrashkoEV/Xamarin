@@ -26,6 +26,7 @@ namespace SelfEducation.Android.Activities
 
             logInButton.Click += (sender, e) =>
             {
+                _logInService.ReturnNum(2);
                 var intent = new Intent(this, typeof(SetupQuestionnaireActivity));
                 intent.PutExtra("login_email", emailTextView.Text);
                 intent.PutExtra("pass_email", passTextView.Text);
