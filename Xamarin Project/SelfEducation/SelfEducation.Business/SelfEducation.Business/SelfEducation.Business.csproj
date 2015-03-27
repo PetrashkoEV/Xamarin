@@ -37,9 +37,19 @@
     <Compile Include="Data\Contracts\Entity.cs" />
     <Compile Include="Data\Contracts\Private\IDbLocation.cs" />
     <Compile Include="Data\Contracts\Private\IEntity.cs" />
+    <Compile Include="Data\DataModule.cs" />
     <Compile Include="Data\Entities\CurrencyEntity.cs" />
+    <Compile Include="Data\Repository\ConnectionExtensions.cs" />
+    <Compile Include="Data\Repository\Private\IConnectionExtensions.cs" />
     <Compile Include="Data\Repository\Private\IRepository.cs" />
     <Compile Include="Data\Repository\Repository.cs" />
+    <Compile Include="Data\Services\Context\Private\IUnitOfWork.cs" />
+    <Compile Include="Data\Services\Context\UnitOfWork.cs" />
+    <Compile Include="Data\Services\Context\UnitOfWorkModule.cs" />
+    <Compile Include="Data\Services\Transaction\CreateDefaultTagsTransaction.cs" />
+    <Compile Include="Data\Services\Transaction\CreateTablesTransaction.cs" />
+    <Compile Include="Data\Services\Transaction\Private\ICreateDefaultTagsTransaction.cs" />
+    <Compile Include="Data\Services\Transaction\Private\ICreateTablesTransaction.cs" />
     <Compile Include="DefaultModule.cs" />
     <Compile Include="DefaultServiceLocator.cs" />
     <Compile Include="Private\ILogInService.cs" />
@@ -60,9 +70,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Data\Services\Context\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

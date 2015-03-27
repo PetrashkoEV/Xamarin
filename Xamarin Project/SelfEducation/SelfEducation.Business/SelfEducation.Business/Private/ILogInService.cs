@@ -1,4 +1,6 @@
-﻿namespace SelfEducation.Business.Private
+﻿using System.Threading.Tasks;
+
+namespace SelfEducation.Business.Private
 {
     public interface ILogInService
     {

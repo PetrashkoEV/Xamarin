@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using Autofac;
 using Microsoft.Practices.ServiceLocation;
-using SelfEducation.Business.Private;
-using SelfEducation.Business.Service;
+using SelfEducation.Business.Data;
+using SelfEducation.Business.Data.Services.Context;
 
 namespace SelfEducation.Business
 {
@@ -15,12 +15,15 @@ namespace SelfEducation.Business
         {
             var builder = new ContainerBuilder();
 
+            builder.RegisterModule(new DefaultModule());
+            builder.RegisterModule(new DataModule());
+            builder.RegisterModule(new UnitOfWorkModule());
             
             foreach (var s in platformModule)
             {
                 builder.RegisterModule(s);
             }
-            builder.RegisterModule(new DefaultModule());
+            
 
             _container = builder.Build();
         }
