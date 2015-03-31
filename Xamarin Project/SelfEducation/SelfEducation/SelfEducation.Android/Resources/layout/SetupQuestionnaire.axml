@@ -110,6 +110,41 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:id="@+id/Row">
+                <TextView
+                    android:text="@string/CabinetAreaDimensions"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/textSelectBottoms"
+                    android:layout_width="200dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center" />
+                <EditText
+                    android:inputType="number"
+                    android:id="@+id/editWidthCabinetArea"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:hint="@string/Width" />
+                <TextView
+                    android:text="@string/X"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/textSelectBottoms"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center" />
+                <EditText
+                    android:inputType="number"
+                    android:id="@+id/editHeightCabinetArea"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:hint="@string/Height" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/Row">
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

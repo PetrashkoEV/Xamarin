@@ -9,6 +9,7 @@
   <string name="SelectCabinetDepth">Select Cabinet Depth: </string>
   <string name="SelectCollor">Select Color: </string>
   <string name="SelectBottoms">Select Bottoms: </string>
+  <string name="CabinetAreaDimensions">Cabinet Area Dimensions: </string>
   <string name="SolidBase">Solid base </string>
   <string name="Legs">Legs </string>
   <string name="TwentyFourDep">24</string>
@@ -24,4 +25,7 @@
     <item>New Zealand</item>
     <item>India</item>
   </string-array>
+  <string name="Height">Height</string>
+  <string name="Width">Width</string>
+  <string name="X">x</string>
 </resources>

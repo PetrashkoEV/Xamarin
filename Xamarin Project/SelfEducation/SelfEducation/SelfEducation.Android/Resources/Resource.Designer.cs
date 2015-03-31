@@ -115,8 +115,8 @@ namespace SelfEducation.Android
 			// aapt resource value: 0x7f080006
 			public const int LogIn = 2131230726;
 			
-			// aapt resource value: 0x7f080010
-			public const int NextStep = 2131230736;
+			// aapt resource value: 0x7f080012
+			public const int NextStep = 2131230738;
 			
 			// aapt resource value: 0x7f080001
 			public const int Row = 2131230721;
@@ -124,11 +124,17 @@ namespace SelfEducation.Android
 			// aapt resource value: 0x7f080009
 			public const int SelectDept = 2131230729;
 			
+			// aapt resource value: 0x7f080011
+			public const int editHeightCabinetArea = 2131230737;
+			
 			// aapt resource value: 0x7f080003
 			public const int editTextEmail = 2131230723;
 			
 			// aapt resource value: 0x7f080005
 			public const int editTextPass = 2131230725;
+			
+			// aapt resource value: 0x7f080010
+			public const int editWidthCabinetArea = 2131230736;
 			
 			// aapt resource value: 0x7f080000
 			public const int layoutContainer = 2131230720;
@@ -201,17 +207,23 @@ namespace SelfEducation.Android
 			// aapt resource value: 0x7f040001
 			public const int ApplicationName = 2130968577;
 			
+			// aapt resource value: 0x7f04000a
+			public const int CabinetAreaDimensions = 2130968586;
+			
 			// aapt resource value: 0x7f040002
 			public const int Email = 2130968578;
 			
 			// aapt resource value: 0x7f040006
 			public const int EnterEmails = 2130968582;
 			
+			// aapt resource value: 0x7f040010
+			public const int Height = 2130968592;
+			
 			// aapt resource value: 0x7f040000
 			public const int Hello = 2130968576;
 			
-			// aapt resource value: 0x7f04000b
-			public const int Legs = 2130968587;
+			// aapt resource value: 0x7f04000c
+			public const int Legs = 2130968588;
 			
 			// aapt resource value: 0x7f040005
 			public const int NextStep = 2130968581;
@@ -228,17 +240,23 @@ namespace SelfEducation.Android
 			// aapt resource value: 0x7f040008
 			public const int SelectCollor = 2130968584;
 			
-			// aapt resource value: 0x7f04000a
-			public const int SolidBase = 2130968586;
-			
-			// aapt resource value: 0x7f04000d
-			public const int ThirtyDep = 2130968589;
-			
-			// aapt resource value: 0x7f04000c
-			public const int TwentyFourDep = 2130968588;
+			// aapt resource value: 0x7f04000b
+			public const int SolidBase = 2130968587;
 			
 			// aapt resource value: 0x7f04000e
-			public const int collor_prompt = 2130968590;
+			public const int ThirtyDep = 2130968590;
+			
+			// aapt resource value: 0x7f04000d
+			public const int TwentyFourDep = 2130968589;
+			
+			// aapt resource value: 0x7f040011
+			public const int Width = 2130968593;
+			
+			// aapt resource value: 0x7f040012
+			public const int X = 2130968594;
+			
+			// aapt resource value: 0x7f04000f
+			public const int collor_prompt = 2130968591;
 			
 			// aapt resource value: 0x7f040004
 			public const int logIn = 2130968580;
