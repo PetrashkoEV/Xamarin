@@ -115,8 +115,8 @@ namespace SelfEducation.Android
 			// aapt resource value: 0x7f080006
 			public const int LogIn = 2131230726;
 			
-			// aapt resource value: 0x7f08000d
-			public const int NextStep = 2131230733;
+			// aapt resource value: 0x7f080010
+			public const int NextStep = 2131230736;
 			
 			// aapt resource value: 0x7f080001
 			public const int Row = 2131230721;
@@ -136,6 +136,12 @@ namespace SelfEducation.Android
 			// aapt resource value: 0x7f080007
 			public const int linearLayout1 = 2131230727;
 			
+			// aapt resource value: 0x7f08000f
+			public const int radioLegs = 2131230735;
+			
+			// aapt resource value: 0x7f08000e
+			public const int radioSolidBase = 2131230734;
+			
 			// aapt resource value: 0x7f08000b
 			public const int radioThirtyDep = 2131230731;
 			
@@ -144,6 +150,9 @@ namespace SelfEducation.Android
 			
 			// aapt resource value: 0x7f08000c
 			public const int spinner = 2131230732;
+			
+			// aapt resource value: 0x7f08000d
+			public const int textSelectBottoms = 2131230733;
 			
 			// aapt resource value: 0x7f080008
 			public const int textSelectCabinetDepth = 2131230728;
@@ -201,11 +210,17 @@ namespace SelfEducation.Android
 			// aapt resource value: 0x7f040000
 			public const int Hello = 2130968576;
 			
+			// aapt resource value: 0x7f04000b
+			public const int Legs = 2130968587;
+			
 			// aapt resource value: 0x7f040005
 			public const int NextStep = 2130968581;
 			
 			// aapt resource value: 0x7f040003
 			public const int Pass = 2130968579;
+			
+			// aapt resource value: 0x7f040009
+			public const int SelectBottoms = 2130968585;
 			
 			// aapt resource value: 0x7f040007
 			public const int SelectCabinetDepth = 2130968583;
@@ -214,13 +229,16 @@ namespace SelfEducation.Android
 			public const int SelectCollor = 2130968584;
 			
 			// aapt resource value: 0x7f04000a
-			public const int ThirtyDep = 2130968586;
+			public const int SolidBase = 2130968586;
 			
-			// aapt resource value: 0x7f040009
-			public const int TwentyFourDep = 2130968585;
+			// aapt resource value: 0x7f04000d
+			public const int ThirtyDep = 2130968589;
 			
-			// aapt resource value: 0x7f04000b
-			public const int collor_prompt = 2130968587;
+			// aapt resource value: 0x7f04000c
+			public const int TwentyFourDep = 2130968588;
+			
+			// aapt resource value: 0x7f04000e
+			public const int collor_prompt = 2130968590;
 			
 			// aapt resource value: 0x7f040004
 			public const int logIn = 2130968580;

@@ -74,6 +74,42 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:id="@+id/Row">
+                <TextView
+                    android:text="@string/SelectBottoms"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/textSelectBottoms"
+                    android:layout_width="200dp"
+                    android:layout_height="fill_parent"
+                    android:gravity="center" />
+                <RadioGroup
+                    android:id="@+id/SelectDept"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <RadioButton
+                        android:id="@+id/radioSolidBase"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/RadioButtonBackground"
+                        android:button="@android:color/transparent"
+                        android:checked="true"
+                        android:text="@string/SolidBase" />
+                    <RadioButton
+                        android:id="@+id/radioLegs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/RadioButtonBackground"
+                        android:button="@android:color/transparent"
+                        android:layout_marginLeft="15dp"
+                        android:text="@string/Legs" />
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/Row">
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

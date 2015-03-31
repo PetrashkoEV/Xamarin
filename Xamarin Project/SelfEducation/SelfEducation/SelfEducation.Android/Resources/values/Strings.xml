@@ -8,6 +8,9 @@
   <string name="EnterEmails">Enter Email</string>
   <string name="SelectCabinetDepth">Select Cabinet Depth: </string>
   <string name="SelectCollor">Select Color: </string>
+  <string name="SelectBottoms">Select Bottoms: </string>
+  <string name="SolidBase">Solid base </string>
+  <string name="Legs">Legs </string>
   <string name="TwentyFourDep">24</string>
   <string name="ThirtyDep">30</string>
   <string name="collor_prompt">Choose a collor</string>
