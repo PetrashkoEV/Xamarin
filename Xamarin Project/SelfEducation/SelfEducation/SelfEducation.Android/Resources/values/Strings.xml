@@ -4,5 +4,21 @@
   <string name="Email">E-mail</string>
   <string name="Pass">Pass</string>
   <string name="logIn">Log In</string>
+  <string name="NextStep">Next Step</string>
   <string name="EnterEmails">Enter Email</string>
+  <string name="SelectCabinetDepth">Select Cabinet Depth: </string>
+  <string name="SelectCollor">Select Color: </string>
+  <string name="TwentyFourDep">24</string>
+  <string name="ThirtyDep">30</string>
+  <string name="collor_prompt">Choose a collor</string>
+  <string-array name="collor_arrays">
+    <item>Malaysia</item>
+    <item>United States</item>
+    <item>Indonesia</item>
+    <item>France</item>
+    <item>Italy</item>
+    <item>Singapore</item>
+    <item>New Zealand</item>
+    <item>India</item>
+  </string-array>
 </resources>

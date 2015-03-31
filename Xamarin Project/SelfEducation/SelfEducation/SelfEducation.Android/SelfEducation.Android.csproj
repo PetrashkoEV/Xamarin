@@ -76,6 +76,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activities\ActionScreenActivity.cs" />
     <Compile Include="Activities\SetupQuestionnaireActivity.cs" />
     <Compile Include="Activities\MainActivity.cs" />
     <Compile Include="App.cs" />
@@ -89,6 +90,9 @@
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <AndroidResource Include="Resources\layout\SetupQuestionnaire.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\ActionScreen.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -109,6 +113,10 @@
     <AndroidResource Include="Resources\values\Styles.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\drawable\radioButtonBackground.xml" />
+    <AndroidResource Include="Resources\drawable\RadioButtonChecked.xml" />
+    <AndroidResource Include="Resources\drawable\RadioButtonUnChecked.xml" />
+    <AndroidResource Include="Resources\drawable\RadioButtonPressed.xml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\SelfEducation.Business\SelfEducation.Business\SelfEducation.Business.csproj">

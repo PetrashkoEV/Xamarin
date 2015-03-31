@@ -1,4 +1,5 @@
 using Android.App;
+using Android.Content;
 using Android.OS;
 using Android.Widget;
 
@@ -14,13 +15,21 @@ namespace SelfEducation.Android.Activities
             // Create your application here
             SetContentView(Resource.Layout.SetupQuestionnaire);
 
-            var textViewEmail = FindViewById<TextView>(Resource.Id.textViewEnterEmails);
-
             // Create your application here
-            var email = Intent.Extras.GetString("login_email") ?? "";
-            var pass = Intent.Extras.GetString("pass_email") ?? "";
+            /*var email = Intent.Extras.GetString("login_email") ?? "";
+            var pass = Intent.Extras.GetString("pass_email") ?? "";*/
 
-            textViewEmail.Text = email + " - " + pass;
+            var nextStep = FindViewById<Button>(Resource.Id.NextStep);
+
+            RadioGroup radioGroup = FindViewById<RadioGroup>(Resource.Id.SelectDept);
+
+            nextStep.Click += (sender, e) =>
+            {
+                var radioButton = FindViewById<RadioButton>(radioGroup.CheckedRadioButtonId);
+                var intent = new Intent(this, typeof(ActionScreenActivity));
+                //intent.PutExtra("login_email", q);
+                StartActivity(intent);
+            };
         }
     }
 }
