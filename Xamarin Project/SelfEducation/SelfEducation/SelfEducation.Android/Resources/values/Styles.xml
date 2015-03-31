@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <resources>
-  <!-- Inherit from the light Material Theme -->
-  <style name="MyCustomTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
-    <!-- Customizations go here -->
-    <item name="android:background">@color/my_blue</item>
+  <style name="spinnerDropDownItemStyle" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+
   </style>
 </resources>

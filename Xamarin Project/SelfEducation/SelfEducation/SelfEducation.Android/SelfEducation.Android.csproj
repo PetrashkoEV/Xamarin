@@ -89,12 +89,10 @@
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
-    <AndroidResource Include="Resources\layout\SetupQuestionnaire.axml">
-      <SubType>AndroidResource</SubType>
-    </AndroidResource>
     <AndroidResource Include="Resources\layout\ActionScreen.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\SetupQuestionnaire.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
@@ -117,6 +115,9 @@
     <AndroidResource Include="Resources\drawable\RadioButtonChecked.xml" />
     <AndroidResource Include="Resources\drawable\RadioButtonUnChecked.xml" />
     <AndroidResource Include="Resources\drawable\RadioButtonPressed.xml" />
+    <AndroidResource Include="Resources\values\Themes.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\SelfEducation.Business\SelfEducation.Business\SelfEducation.Business.csproj">

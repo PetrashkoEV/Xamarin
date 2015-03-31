@@ -115,8 +115,8 @@ namespace SelfEducation.Android
 			// aapt resource value: 0x7f080006
 			public const int LogIn = 2131230726;
 			
-			// aapt resource value: 0x7f08000c
-			public const int NextStep = 2131230732;
+			// aapt resource value: 0x7f08000d
+			public const int NextStep = 2131230733;
 			
 			// aapt resource value: 0x7f080001
 			public const int Row = 2131230721;
@@ -141,6 +141,9 @@ namespace SelfEducation.Android
 			
 			// aapt resource value: 0x7f08000a
 			public const int radioTwentyFourDep = 2131230730;
+			
+			// aapt resource value: 0x7f08000c
+			public const int spinner = 2131230732;
 			
 			// aapt resource value: 0x7f080008
 			public const int textSelectCabinetDepth = 2131230728;
@@ -235,8 +238,11 @@ namespace SelfEducation.Android
 		public partial class Style
 		{
 			
+			// aapt resource value: 0x7f070001
+			public const int MyCustomTheme = 2131165185;
+			
 			// aapt resource value: 0x7f070000
-			public const int MyCustomTheme = 2131165184;
+			public const int spinnerDropDownItemStyle = 2131165184;
 			
 			static Style()
 			{
