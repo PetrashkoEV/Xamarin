@@ -121,7 +121,7 @@
                     android:inputType="number"
                     android:id="@+id/editWidthCabinetArea"
                     android:layout_width="80dp"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:hint="@string/Width" />
                 <TextView
                     android:text="@string/X"
@@ -136,7 +136,7 @@
                     android:inputType="number"
                     android:id="@+id/editHeightCabinetArea"
                     android:layout_width="80dp"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:hint="@string/Height" />
             </LinearLayout>
             <LinearLayout
@@ -144,9 +144,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:id="@+id/Row">
+                android:id="@+id/Row"
+                android:gravity="center">
                 <Button
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/NextStep"
                     android:text="@string/NextStep" />

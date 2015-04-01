@@ -4,5 +4,6 @@
   <style name="MyCustomTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
     <!-- Customizations go here -->
     <item name="android:background">@color/my_blue</item>
+    <item name="android:buttonStyle">@style/CustomButton</item>
   </style>
 </resources>

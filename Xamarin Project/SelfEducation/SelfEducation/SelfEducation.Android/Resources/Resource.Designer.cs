@@ -71,6 +71,9 @@ namespace SelfEducation.Android
 			// aapt resource value: 0x7f050002
 			public const int orange = 2131034114;
 			
+			// aapt resource value: 0x7f050003
+			public const int white = 2131034115;
+			
 			static Color()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -85,19 +88,22 @@ namespace SelfEducation.Android
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int default_button_backgroung = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int radioButtonBackground = 2130837505;
+			public const int Icon = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int RadioButtonChecked = 2130837506;
+			public const int radioButtonBackground = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int RadioButtonPressed = 2130837507;
+			public const int RadioButtonChecked = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int RadioButtonUnChecked = 2130837508;
+			public const int RadioButtonPressed = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int RadioButtonUnChecked = 2130837509;
 			
 			static Drawable()
 			{
@@ -274,11 +280,11 @@ namespace SelfEducation.Android
 		public partial class Style
 		{
 			
+			// aapt resource value: 0x7f070000
+			public const int CustomButton = 2131165184;
+			
 			// aapt resource value: 0x7f070001
 			public const int MyCustomTheme = 2131165185;
-			
-			// aapt resource value: 0x7f070000
-			public const int spinnerDropDownItemStyle = 2131165184;
 			
 			static Style()
 			{

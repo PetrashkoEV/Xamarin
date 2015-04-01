@@ -111,11 +111,16 @@
     <AndroidResource Include="Resources\values\Styles.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\drawable\radioButtonBackground.xml" />
+    <AndroidResource Include="Resources\drawable\radioButtonBackground.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
     <AndroidResource Include="Resources\drawable\RadioButtonChecked.xml" />
     <AndroidResource Include="Resources\drawable\RadioButtonUnChecked.xml" />
     <AndroidResource Include="Resources\drawable\RadioButtonPressed.xml" />
     <AndroidResource Include="Resources\values\Themes.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\default_button_backgroung.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -124,6 +129,9 @@
       <Project>{aaa994d6-6d66-4ea6-bad8-e47d05a226e7}</Project>
       <Name>SelfEducation.Business</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Renderer\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
