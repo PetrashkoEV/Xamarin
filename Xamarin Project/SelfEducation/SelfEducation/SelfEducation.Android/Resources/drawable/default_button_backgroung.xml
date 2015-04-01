@@ -57,7 +57,7 @@
           android:top="10dp"
           android:bottom="10dp"/>
 
-      <solid android:color="@color/my_blue"/>
+      <solid android:color="@color/blue"/>
     </shape>
   </item>
 </selector>

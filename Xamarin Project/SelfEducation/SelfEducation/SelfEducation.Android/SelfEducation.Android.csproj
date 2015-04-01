@@ -123,6 +123,7 @@
     <AndroidResource Include="Resources\drawable\default_button_backgroung.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\drawable\gradient_backgroung_app.xml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\SelfEducation.Business\SelfEducation.Business\SelfEducation.Business.csproj">
