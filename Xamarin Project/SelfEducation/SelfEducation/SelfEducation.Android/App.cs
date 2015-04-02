@@ -4,7 +4,7 @@ using Android.Runtime;
 using Microsoft.Practices.ServiceLocation;
 using SelfEducation.Business;
 
-namespace SelfEducation.Android
+namespace SelfEducation.Droid
 {
     [Application]
     public class App : Application

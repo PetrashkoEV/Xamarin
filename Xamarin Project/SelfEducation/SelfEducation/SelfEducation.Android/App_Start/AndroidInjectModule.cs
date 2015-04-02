@@ -3,7 +3,7 @@ using SelfEducation.Business.Data.Contracts.Private;
 using SQLite.Net.Interop;
 using SQLite.Net.Platform.XamarinAndroid;
 
-namespace SelfEducation.Android
+namespace SelfEducation.Droid
 {
     public class AndroidInjectModule : Module
     {

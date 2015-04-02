@@ -3,9 +3,9 @@ using Android.Content;
 using Android.OS;
 using Android.Widget;
 
-namespace SelfEducation.Android.Activities
+namespace SelfEducation.Droid.Activities
 {
-    [Activity(Label = "@string/logIn")]
+    [Activity(Label = "@string/logIn", NoHistory = true)]
     public class SetupQuestionnaireActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)
@@ -14,7 +14,7 @@ namespace SelfEducation.Android.Activities
 
             // Create your application here
             SetContentView(Resource.Layout.SetupQuestionnaire);
-
+            
             // Create your application here
             /*var email = Intent.Extras.GetString("login_email") ?? "";
             var pass = Intent.Extras.GetString("pass_email") ?? "";*/

@@ -2,7 +2,7 @@
 using System.IO;
 using SelfEducation.Business.Data.Contracts.Private;
 
-namespace SelfEducation.Android
+namespace SelfEducation.Droid
 {
     public class AndroidDbLocation : IDbLocation
     {

@@ -5,9 +5,9 @@ using Android.Widget;
 using Microsoft.Practices.ServiceLocation;
 using SelfEducation.Business.Private;
 
-namespace SelfEducation.Android.Activities
+namespace SelfEducation.Droid.Activities
 {
-    [Activity(Label = "@string/ApplicationName", MainLauncher = true)]
+    [Activity(Label = "@string/ApplicationName", NoHistory = true)]
     public class MainActivity : Activity
     {
         private readonly ILogInService _logInService = ServiceLocator.Current.GetInstance<ILogInService>();
