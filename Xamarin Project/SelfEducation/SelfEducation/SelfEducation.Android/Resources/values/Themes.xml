@@ -1,16 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- Theme start screen -->
   <style name="Theme.Splash" parent="android:Theme">
-    <item name="android:windowBackground">@color/white</item>
+    <item name="android:windowBackground">@drawable/splash_background</item>
     <item name="android:windowNoTitle">true</item>
   </style>
-  <style name="MyCustomTheme" parent="@android:style/android:Theme">
-    <!-- Customizations go here -->
+  <!-- Default Theme -->
+  <style name="MyCustomTheme" parent="@android:style/android:Theme.NoTitleBar.Fullscreen">
     <item name="android:buttonStyle">@style/CustomButton</item>
     <item name="android:windowBackground">@drawable/gradient_backgroung_app</item>
     <item name="android:colorBackgroundCacheHint">#00000000</item>
   </style>
+  <!-- Theme left panel-->
   <style name="ThemeInTheActionScreen" parent="@android:style/Theme.Holo.Light.DarkActionBar">
     <item name="android:actionBarStyle">@style/MyActionBar</item>
   </style>

@@ -130,6 +130,7 @@
     </AndroidResource>
     <AndroidResource Include="Resources\drawable\gradient_backgroung_app.xml" />
     <AndroidResource Include="Resources\drawable\ic_navigation_drawer.png" />
+    <AndroidResource Include="Resources\drawable\splash_background.xml" />
     <AndroidResource Include="Resources\drawable\splash.png" />
   </ItemGroup>
   <ItemGroup>
