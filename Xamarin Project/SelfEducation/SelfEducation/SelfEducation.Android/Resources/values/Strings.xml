@@ -16,14 +16,10 @@
   <string name="ThirtyDep">30</string>
   <string name="collor_prompt">Choose a collor</string>
   <string-array name="collor_arrays">
-    <item>Malaysia</item>
-    <item>United States</item>
-    <item>Indonesia</item>
-    <item>France</item>
-    <item>Italy</item>
-    <item>Singapore</item>
-    <item>New Zealand</item>
-    <item>India</item>
+    <item>Black</item>
+    <item>White</item>
+    <item>Beige</item>
+    <item>Light grey</item>
   </string-array>
   <string name="Height">Height</string>
   <string name="Width">Width</string>
