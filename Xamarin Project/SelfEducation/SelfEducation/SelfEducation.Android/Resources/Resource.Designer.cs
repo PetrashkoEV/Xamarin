@@ -88,34 +88,37 @@ namespace SelfEducation.Droid
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int default_button_backgroung = 2130837504;
+			public const int aplication_backgroung = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int gradient_backgroung_app = 2130837505;
+			public const int default_button_backgroung = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int ic_navigation_drawer = 2130837506;
+			public const int gradient_backgroung = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int Icon = 2130837507;
+			public const int ic_navigation_drawer = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int radioButtonBackground = 2130837508;
+			public const int Icon = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int RadioButtonChecked = 2130837509;
+			public const int radioButtonBackground = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int RadioButtonPressed = 2130837510;
+			public const int RadioButtonChecked = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int RadioButtonUnChecked = 2130837511;
+			public const int RadioButtonPressed = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int splash = 2130837512;
+			public const int RadioButtonUnChecked = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int splash_background = 2130837513;
+			public const int splash = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int splash_background = 2130837514;
 			
 			static Drawable()
 			{
