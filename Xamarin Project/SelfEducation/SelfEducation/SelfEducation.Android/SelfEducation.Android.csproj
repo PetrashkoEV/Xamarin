@@ -130,9 +130,12 @@
     </AndroidResource>
     <AndroidResource Include="Resources\drawable\aplication_backgroung.xml" />
     <AndroidResource Include="Resources\drawable\ic_navigation_drawer.png" />
-    <AndroidResource Include="Resources\drawable\splash_background.xml" />
+    <AndroidResource Include="Resources\drawable\splash_background.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
     <AndroidResource Include="Resources\drawable\splash.png" />
     <AndroidResource Include="Resources\drawable\gradient_backgroung.xml" />
+    <AndroidResource Include="Resources\drawable\row.xml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\SelfEducation.Business\SelfEducation.Business\SelfEducation.Business.csproj">

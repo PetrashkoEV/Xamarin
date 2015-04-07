@@ -33,6 +33,12 @@ namespace SelfEducation.Droid
 		public partial class Array
 		{
 			
+			// aapt resource value: 0x7f060002
+			public const int bootoms_arrays = 2131099650;
+			
+			// aapt resource value: 0x7f060001
+			public const int chase_depth_arrays = 2131099649;
+			
 			// aapt resource value: 0x7f060000
 			public const int collor_arrays = 2131099648;
 			
@@ -115,10 +121,13 @@ namespace SelfEducation.Droid
 			public const int RadioButtonUnChecked = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int splash = 2130837513;
+			public const int row = 2130837513;
 			
 			// aapt resource value: 0x7f02000a
-			public const int splash_background = 2130837514;
+			public const int splash = 2130837514;
+			
+			// aapt resource value: 0x7f02000b
+			public const int splash_background = 2130837515;
 			
 			static Drawable()
 			{
@@ -136,20 +145,17 @@ namespace SelfEducation.Droid
 			// aapt resource value: 0x7f08000a
 			public const int LogIn = 2131230730;
 			
-			// aapt resource value: 0x7f080016
-			public const int NextStep = 2131230742;
-			
 			// aapt resource value: 0x7f080005
 			public const int Row = 2131230725;
 			
-			// aapt resource value: 0x7f08000d
-			public const int SelectDept = 2131230733;
+			// aapt resource value: 0x7f080010
+			public const int Start = 2131230736;
 			
 			// aapt resource value: 0x7f080001
 			public const int content_frame = 2131230721;
 			
-			// aapt resource value: 0x7f080015
-			public const int editHeightCabinetArea = 2131230741;
+			// aapt resource value: 0x7f08000f
+			public const int editHeightCabinetArea = 2131230735;
 			
 			// aapt resource value: 0x7f080007
 			public const int editTextEmail = 2131230727;
@@ -157,8 +163,8 @@ namespace SelfEducation.Droid
 			// aapt resource value: 0x7f080009
 			public const int editTextPass = 2131230729;
 			
-			// aapt resource value: 0x7f080014
-			public const int editWidthCabinetArea = 2131230740;
+			// aapt resource value: 0x7f08000e
+			public const int editWidthCabinetArea = 2131230734;
 			
 			// aapt resource value: 0x7f080004
 			public const int layoutContainer = 2131230724;
@@ -166,32 +172,17 @@ namespace SelfEducation.Droid
 			// aapt resource value: 0x7f080003
 			public const int leftListView = 2131230723;
 			
-			// aapt resource value: 0x7f08000b
-			public const int linearLayout1 = 2131230731;
-			
 			// aapt resource value: 0x7f080000
 			public const int myDrawer = 2131230720;
 			
-			// aapt resource value: 0x7f080013
-			public const int radioLegs = 2131230739;
-			
-			// aapt resource value: 0x7f080012
-			public const int radioSolidBase = 2131230738;
-			
-			// aapt resource value: 0x7f08000f
-			public const int radioThirtyDep = 2131230735;
-			
-			// aapt resource value: 0x7f08000e
-			public const int radioTwentyFourDep = 2131230734;
-			
-			// aapt resource value: 0x7f080010
-			public const int spinner = 2131230736;
-			
-			// aapt resource value: 0x7f080011
-			public const int textSelectBottoms = 2131230737;
-			
 			// aapt resource value: 0x7f08000c
-			public const int textSelectCabinetDepth = 2131230732;
+			public const int spinner = 2131230732;
+			
+			// aapt resource value: 0x7f08000d
+			public const int textSelectBottoms = 2131230733;
+			
+			// aapt resource value: 0x7f08000b
+			public const int textSelectCabinetDepth = 2131230731;
 			
 			// aapt resource value: 0x7f080006
 			public const int textViewEmail = 2131230726;
@@ -240,8 +231,8 @@ namespace SelfEducation.Droid
 			// aapt resource value: 0x7f040001
 			public const int ApplicationName = 2130968577;
 			
-			// aapt resource value: 0x7f04000a
-			public const int CabinetAreaDimensions = 2130968586;
+			// aapt resource value: 0x7f04000b
+			public const int CabinetAreaDimensions = 2130968587;
 			
 			// aapt resource value: 0x7f040002
 			public const int Email = 2130968578;
@@ -249,56 +240,44 @@ namespace SelfEducation.Droid
 			// aapt resource value: 0x7f040006
 			public const int EnterEmails = 2130968582;
 			
-			// aapt resource value: 0x7f040010
-			public const int Height = 2130968592;
+			// aapt resource value: 0x7f04000d
+			public const int HeightCabinetArea = 2130968589;
 			
 			// aapt resource value: 0x7f040000
 			public const int Hello = 2130968576;
 			
-			// aapt resource value: 0x7f04000c
-			public const int Legs = 2130968588;
-			
-			// aapt resource value: 0x7f040005
-			public const int NextStep = 2130968581;
-			
 			// aapt resource value: 0x7f040003
 			public const int Pass = 2130968579;
 			
-			// aapt resource value: 0x7f040009
-			public const int SelectBottoms = 2130968585;
+			// aapt resource value: 0x7f04000a
+			public const int SelectBottoms = 2130968586;
 			
-			// aapt resource value: 0x7f040007
-			public const int SelectCabinetDepth = 2130968583;
+			// aapt resource value: 0x7f040009
+			public const int SelectChaseDepth = 2130968585;
 			
 			// aapt resource value: 0x7f040008
 			public const int SelectCollor = 2130968584;
 			
-			// aapt resource value: 0x7f04000b
-			public const int SolidBase = 2130968587;
+			// aapt resource value: 0x7f040005
+			public const int Start = 2130968581;
+			
+			// aapt resource value: 0x7f040007
+			public const int TitleSetupQuestionnaire = 2130968583;
+			
+			// aapt resource value: 0x7f04000c
+			public const int WidthCabinetArea = 2130968588;
 			
 			// aapt resource value: 0x7f04000e
-			public const int ThirtyDep = 2130968590;
+			public const int X = 2130968590;
 			
-			// aapt resource value: 0x7f04000d
-			public const int TwentyFourDep = 2130968589;
-			
-			// aapt resource value: 0x7f040011
-			public const int Width = 2130968593;
-			
-			// aapt resource value: 0x7f040012
-			public const int X = 2130968594;
-			
-			// aapt resource value: 0x7f040014
-			public const int close_drawer = 2130968596;
-			
-			// aapt resource value: 0x7f04000f
-			public const int collor_prompt = 2130968591;
+			// aapt resource value: 0x7f040010
+			public const int close_drawer = 2130968592;
 			
 			// aapt resource value: 0x7f040004
 			public const int logIn = 2130968580;
 			
-			// aapt resource value: 0x7f040013
-			public const int open_drawer = 2130968595;
+			// aapt resource value: 0x7f04000f
+			public const int open_drawer = 2130968591;
 			
 			static String()
 			{

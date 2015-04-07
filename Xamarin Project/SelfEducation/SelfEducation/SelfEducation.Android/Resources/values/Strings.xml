@@ -4,25 +4,29 @@
   <string name="Email">E-mail</string>
   <string name="Pass">Pass</string>
   <string name="logIn">Log In</string>
-  <string name="NextStep">Next Step</string>
+  <string name="Start">Start</string>
   <string name="EnterEmails">Enter Email</string>
-  <string name="SelectCabinetDepth">Select Cabinet Depth: </string>
-  <string name="SelectCollor">Select Color: </string>
-  <string name="SelectBottoms">Select Bottoms: </string>
-  <string name="CabinetAreaDimensions">Cabinet Area Dimensions: </string>
-  <string name="SolidBase">Solid base </string>
-  <string name="Legs">Legs </string>
-  <string name="TwentyFourDep">24</string>
-  <string name="ThirtyDep">30</string>
-  <string name="collor_prompt">Choose a collor</string>
+  <string name="TitleSetupQuestionnaire">Setup Questionnaire</string>
+  <string name="SelectCollor">Color </string>
+  <string name="SelectChaseDepth">Chase Depth </string>
+  <string name="SelectBottoms">Base Type </string>
+  <string name="CabinetAreaDimensions">Cabinet Area Dimensions </string>
   <string-array name="collor_arrays">
     <item>Black</item>
     <item>White</item>
     <item>Beige</item>
     <item>Light grey</item>
   </string-array>
-  <string name="Height">Height</string>
-  <string name="Width">Width</string>
+  <string-array name="chase_depth_arrays">
+    <item>0</item>
+    <item>6</item>
+  </string-array>
+  <string-array name="bootoms_arrays">
+    <item>Legs</item>
+    <item>Solid base</item>
+  </string-array>
+  <string name="WidthCabinetArea">Width, e.g. 10</string>
+  <string name="HeightCabinetArea">Height, e.g. 8</string>
   <string name="X">x</string>
   <string name="open_drawer">Open Drawer</string>
   <string name="close_drawer">Close Drawer</string>

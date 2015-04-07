@@ -19,15 +19,11 @@ namespace SelfEducation.Droid.Activities
             /*var email = Intent.Extras.GetString("login_email") ?? "";
             var pass = Intent.Extras.GetString("pass_email") ?? "";*/
 
-            var nextStep = FindViewById<Button>(Resource.Id.NextStep);
-
-            RadioGroup radioGroup = FindViewById<RadioGroup>(Resource.Id.SelectDept);
+            var nextStep = FindViewById<Button>(Resource.Id.Start);
 
             nextStep.Click += (sender, e) =>
             {
-                var radioButton = FindViewById<RadioButton>(radioGroup.CheckedRadioButtonId);
                 var intent = new Intent(this, typeof(ActionScreenActivity));
-                //intent.PutExtra("login_email", q);
                 StartActivity(intent);
             };
         }

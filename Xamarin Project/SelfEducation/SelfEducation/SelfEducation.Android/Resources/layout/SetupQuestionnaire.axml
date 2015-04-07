@@ -1,157 +1,191 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:id="@+id/linearLayout1">
+    android:id="@+id/layoutContainer"
+    android:orientation="horizontal">
     <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.30" />
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.4">
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
             android:orientation="vertical">
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:id="@+id/Row">
+                android:drawable="@drawable/row"
+                android:id="@+id/Row"
+                android:gravity="center">
                 <TextView
-                    android:text="@string/SelectCabinetDepth"
+                    android:text="@string/TitleSetupQuestionnaire"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:id="@+id/textSelectCabinetDepth"
-                    android:layout_width="200dp"
-                    android:layout_height="fill_parent"
-                    android:gravity="center" />
-                <RadioGroup
-                    android:id="@+id/SelectDept"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-                    <RadioButton
-                        android:id="@+id/radioTwentyFourDep"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/RadioButtonBackground"
-                        android:button="@android:color/transparent"
-                        android:checked="true"
-                        android:text="@string/TwentyFourDep" />
-                    <RadioButton
-                        android:id="@+id/radioThirtyDep"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/RadioButtonBackground"
-                        android:button="@android:color/transparent"
-                        android:layout_marginLeft="15dp"
-                        android:text="@string/ThirtyDep" />
-                </RadioGroup>
-            </LinearLayout>
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:id="@+id/Row">
-                <TextView
-                    android:text="@string/SelectCollor"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:id="@+id/textSelectCabinetDepth"
-                    android:layout_width="200dp"
-                    android:layout_height="fill_parent"
-                    android:gravity="center" />
-                <Spinner
-                    android:id="@+id/spinner"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="5dp"
-                    android:entries="@array/collor_arrays"
-                    android:scrollbars="none" />
-            </LinearLayout>
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:id="@+id/Row">
-                <TextView
-                    android:text="@string/SelectBottoms"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:id="@+id/textSelectBottoms"
-                    android:layout_width="200dp"
-                    android:layout_height="fill_parent"
-                    android:gravity="center" />
-                <RadioGroup
-                    android:id="@+id/SelectDept"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-                    <RadioButton
-                        android:id="@+id/radioSolidBase"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/RadioButtonBackground"
-                        android:button="@android:color/transparent"
-                        android:checked="true"
-                        android:text="@string/SolidBase" />
-                    <RadioButton
-                        android:id="@+id/radioLegs"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/RadioButtonBackground"
-                        android:button="@android:color/transparent"
-                        android:layout_marginLeft="15dp"
-                        android:text="@string/Legs" />
-                </RadioGroup>
-            </LinearLayout>
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:id="@+id/Row">
-                <TextView
-                    android:text="@string/CabinetAreaDimensions"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:id="@+id/textSelectBottoms"
-                    android:layout_width="200dp"
-                    android:layout_height="fill_parent"
-                    android:gravity="center" />
-                <EditText
-                    android:inputType="number"
-                    android:id="@+id/editWidthCabinetArea"
-                    android:layout_width="80dp"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/Width" />
-                <TextView
-                    android:text="@string/X"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:id="@+id/textSelectBottoms"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="fill_parent"
-                    android:gravity="center" />
-                <EditText
-                    android:inputType="number"
-                    android:id="@+id/editHeightCabinetArea"
-                    android:layout_width="80dp"
                     android:layout_height="wrap_content"
-                    android:hint="@string/Height" />
+                    android:gravity="center"
+                    android:textSize="30sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawable="@drawable/row"
+                android:id="@+id/Row">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="@string/SelectCollor"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textSelectCabinetDepth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <Spinner
+                        android:id="@+id/spinner"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:entries="@array/collor_arrays"
+                        android:scrollbars="none" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawable="@drawable/row"
+                android:id="@+id/Row">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="@string/SelectBottoms"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textSelectBottoms"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <Spinner
+                        android:id="@+id/spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:entries="@array/bootoms_arrays"
+                        android:scrollbars="none" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawable="@drawable/row"
+                android:id="@+id/Row">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="@string/SelectChaseDepth"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textSelectBottoms"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <Spinner
+                        android:id="@+id/spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:entries="@array/chase_depth_arrays"
+                        android:scrollbars="none" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawable="@drawable/row"
+                android:id="@+id/Row">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="@string/CabinetAreaDimensions"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textSelectBottoms"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:inputType="number"
+                        android:id="@+id/editWidthCabinetArea"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.30"
+                        android:hint="@string/WidthCabinetArea" />
+                    <TextView
+                        android:text="@string/X"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textSelectBottoms"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="center" />
+                    <EditText
+                        android:inputType="number"
+                        android:id="@+id/editHeightCabinetArea"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.30"
+                        android:hint="@string/HeightCabinetArea" />
+                </LinearLayout>
             </LinearLayout>
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="15dp"
                 android:id="@+id/Row"
                 android:gravity="center">
                 <Button
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:id="@+id/NextStep"
-                    android:text="@string/NextStep" />
+                    android:id="@+id/Start"
+                    android:text="@string/Start" />
             </LinearLayout>
         </LinearLayout>
     </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.30" />
 </LinearLayout>
