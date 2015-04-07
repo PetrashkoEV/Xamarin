@@ -7,11 +7,11 @@
     <RelativeLayout
         android:layout_width="0dip"
         android:layout_height="fill_parent"
-        android:layout_weight="0.15" />
+        android:layout_weight="0.30" />
     <RelativeLayout
         android:layout_width="0dip"
         android:layout_height="fill_parent"
-        android:layout_weight="0.7">
+        android:layout_weight="0.4">
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -21,54 +21,101 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/Row">
+                android:drawable="@drawable/row"
+                android:id="@+id/Row"
+                android:gravity="center">
                 <TextView
-                    android:text="@string/Email"
+                    android:text="@string/TitlelogIn"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:id="@+id/textViewEmail"
-                    android:layout_width="61.8dp"
-                    android:layout_height="fill_parent"
-                    android:gravity="center" />
-                <EditText
-                    android:inputType="textEmailAddress"
-                    android:id="@+id/editTextEmail"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
-            </LinearLayout>
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/Row">
-                <TextView
-                    android:text="@string/Pass"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:id="@+id/textViewPass"
-                    android:layout_width="61.8dp"
-                    android:layout_height="fill_parent"
-                    android:gravity="center" />
-                <EditText
-                    android:inputType="textPassword"
-                    android:id="@+id/editTextPass"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:password="true" />
-            </LinearLayout>
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/Row">
-                <Button
-                    android:layout_width="match_parent"
+                    android:id="@+id/textTitlelogIn"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="30sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawable="@drawable/row"
+                android:id="@+id/Row">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="@string/Email"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:inputType="textEmailAddress"
+                        android:id="@+id/editTextEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawable="@drawable/row"
+                android:id="@+id/Row">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="@string/Pass"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textViewPass"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:inputType="textPassword"
+                        android:id="@+id/editTextPass"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:password="true" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:id="@+id/Row"
+                android:gravity="center">
+                <View
+                    android:layout_height="0dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="20" />
+                <Button
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="60"
                     android:id="@+id/LogIn"
                     android:text="@string/logIn" />
+                <View
+                    android:layout_height="0dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="20" />
             </LinearLayout>
         </LinearLayout>
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="0dip"
         android:layout_height="fill_parent"
-        android:layout_weight="0.15" />
+        android:layout_weight="0.30" />
 </LinearLayout>

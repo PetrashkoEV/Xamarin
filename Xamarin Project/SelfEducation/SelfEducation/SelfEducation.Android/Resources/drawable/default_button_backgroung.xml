@@ -13,8 +13,8 @@
       <padding
           android:left="20dp"
           android:right="20dp"
-          android:top="10dp"
-          android:bottom="10dp"/>
+          android:top="15dp"
+          android:bottom="15dp"/>
 
       <solid android:color="@color/orange"/>
     </shape>
@@ -34,8 +34,8 @@
       <padding
           android:left="20dp"
           android:right="20dp"
-          android:top="10dp"
-          android:bottom="10dp"/>
+          android:top="15dp"
+          android:bottom="15dp"/>
 
       <solid android:color="@color/orange"/>
     </shape>
@@ -54,8 +54,8 @@
       <padding
           android:left="20dp"
           android:right="20dp"
-          android:top="10dp"
-          android:bottom="10dp"/>
+          android:top="15dp"
+          android:bottom="15dp"/>
 
       <solid android:color="@android:color/transparent"/>
     </shape>

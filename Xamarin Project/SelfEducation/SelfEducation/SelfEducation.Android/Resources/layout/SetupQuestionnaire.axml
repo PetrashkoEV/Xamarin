@@ -176,11 +176,20 @@
                 android:layout_marginTop="15dp"
                 android:id="@+id/Row"
                 android:gravity="center">
+                <View
+                    android:layout_height="0dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="20" />
                 <Button
-                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="60"
                     android:id="@+id/Start"
                     android:text="@string/Start" />
+                <View
+                    android:layout_height="0dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="20" />
             </LinearLayout>
         </LinearLayout>
     </RelativeLayout>
