@@ -30,8 +30,8 @@
                     android:id="@+id/textTitlelogIn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:textSize="30sp" />
+                    style="@style/StyleHeaderText"
+                    android:gravity="center" />
             </LinearLayout>
             <LinearLayout
                 android:orientation="vertical"
@@ -111,6 +111,58 @@
                     android:layout_height="0dp"
                     android:layout_width="0dp"
                     android:layout_weight="20" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:id="@+id/Row">
+                <View
+                    android:background="@color/lightblue"
+                    android:layout_height="2dp"
+                    android:layout_width="fill_parent" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawable="@drawable/row"
+                android:id="@+id/Row">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:text="@string/textAccountYet"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textAccountYet"
+                        android:textColor="@color/lightblue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <View
+                        android:layout_height="0dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="20" />
+                    <TextView
+                        android:text="@string/textRegister"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textRegister"
+                        android:drawable="@drawable/row"
+                        style="@style/StyleHeaderText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <View
+                        android:layout_height="0dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="20" />
+                </LinearLayout>
             </LinearLayout>
         </LinearLayout>
     </RelativeLayout>

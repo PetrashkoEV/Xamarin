@@ -5,4 +5,7 @@
     <item name="android:background">@drawable/default_button_backgroung</item>
     <item name="android:textSize">20sp</item>
   </style>
+  <style name="StyleHeaderText" parent="android:Widget.TextView">
+    <item name="android:textSize">30sp</item>
+  </style>
 </resources>

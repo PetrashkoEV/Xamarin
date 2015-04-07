@@ -11,6 +11,7 @@ namespace SelfEducation.Droid.Activities
     public class MainActivity : Activity
     {
         private readonly ILogInService _logInService = ServiceLocator.Current.GetInstance<ILogInService>();
+        private readonly IHttpWebRequestApi _httpWebRequestApi = ServiceLocator.Current.GetInstance<IHttpWebRequestApi>();
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -30,6 +31,13 @@ namespace SelfEducation.Droid.Activities
                 var intent = new Intent(this, typeof(SetupQuestionnaireActivity));
                 intent.PutExtra("login_email", emailTextView.Text);
                 intent.PutExtra("pass_email", passTextView.Text);
+                StartActivity(intent);
+            };
+
+            var registeButton = FindViewById<TextView>(Resource.Id.textRegister);
+            registeButton.Click += (sender, e) =>
+            {
+                var intent = new Intent(this, typeof(CreateAccountActivity));
                 StartActivity(intent);
             };
         }

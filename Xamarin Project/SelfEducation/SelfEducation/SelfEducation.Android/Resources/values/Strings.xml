@@ -31,4 +31,6 @@
   <string name="X">x</string>
   <string name="open_drawer">Open Drawer</string>
   <string name="close_drawer">Close Drawer</string>
+  <string name="textRegister">CREATE ACCOUNT</string>
+  <string name="textAccountYet">Don\'t have an account yet?</string>
 </resources>

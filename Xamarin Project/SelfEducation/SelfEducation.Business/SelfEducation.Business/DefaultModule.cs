@@ -10,6 +10,7 @@ namespace SelfEducation.Business
         {
             // register Service
             builder.RegisterType<LogInService>().As<ILogInService>();
+            builder.RegisterType<HttpWebRequestApi>().As<IHttpWebRequestApi>();
         }
     }
 }
