@@ -83,7 +83,9 @@
     <Compile Include="Activities\CreateAccountActivity.cs" />
     <Compile Include="Activities\SetupQuestionnaireActivity.cs" />
     <Compile Include="Activities\MainActivity.cs" />
-    <Compile Include="Activities\SplashActivity.cs" />
+    <Compile Include="Activities\SplashActivity.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="App.cs" />
     <Compile Include="App_Start\AndroidInjectModule.cs" />
     <Compile Include="App_Start\AndroidDbLocation.cs" />
