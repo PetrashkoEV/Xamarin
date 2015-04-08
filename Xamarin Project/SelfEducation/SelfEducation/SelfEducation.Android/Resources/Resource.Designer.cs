@@ -106,34 +106,37 @@ namespace SelfEducation.Droid
 			public const int default_button_backgroung = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int gradient_backgroung = 2130837506;
+			public const int default_input_background = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int ic_navigation_drawer = 2130837507;
+			public const int gradient_backgroung = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int Icon = 2130837508;
+			public const int ic_navigation_drawer = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int radioButtonBackground = 2130837509;
+			public const int Icon = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int RadioButtonChecked = 2130837510;
+			public const int radioButtonBackground = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int RadioButtonPressed = 2130837511;
+			public const int RadioButtonChecked = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int RadioButtonUnChecked = 2130837512;
+			public const int RadioButtonPressed = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int row = 2130837513;
+			public const int RadioButtonUnChecked = 2130837513;
 			
 			// aapt resource value: 0x7f02000a
-			public const int splash = 2130837514;
+			public const int row = 2130837514;
 			
 			// aapt resource value: 0x7f02000b
-			public const int splash_background = 2130837515;
+			public const int splash = 2130837515;
+			
+			// aapt resource value: 0x7f02000c
+			public const int splash_background = 2130837516;
 			
 			static Drawable()
 			{
@@ -148,32 +151,38 @@ namespace SelfEducation.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f080010
-			public const int LogIn = 2131230736;
+			// aapt resource value: 0x7f080014
+			public const int LogIn = 2131230740;
 			
-			// aapt resource value: 0x7f08000d
-			public const int RegisterButton = 2131230733;
+			// aapt resource value: 0x7f080011
+			public const int RegisterButton = 2131230737;
 			
 			// aapt resource value: 0x7f080005
 			public const int Row = 2131230725;
 			
-			// aapt resource value: 0x7f080015
-			public const int Start = 2131230741;
+			// aapt resource value: 0x7f080019
+			public const int Start = 2131230745;
 			
 			// aapt resource value: 0x7f080001
 			public const int content_frame = 2131230721;
 			
-			// aapt resource value: 0x7f080014
-			public const int editHeightCabinetArea = 2131230740;
+			// aapt resource value: 0x7f080008
+			public const int editFirstName = 2131230728;
+			
+			// aapt resource value: 0x7f080018
+			public const int editHeightCabinetArea = 2131230744;
 			
 			// aapt resource value: 0x7f08000a
-			public const int editTextEmail = 2131230730;
+			public const int editLastName = 2131230730;
 			
-			// aapt resource value: 0x7f08000c
-			public const int editTextPass = 2131230732;
+			// aapt resource value: 0x7f08000e
+			public const int editTextEmail = 2131230734;
 			
-			// aapt resource value: 0x7f080013
-			public const int editWidthCabinetArea = 2131230739;
+			// aapt resource value: 0x7f080010
+			public const int editTextPass = 2131230736;
+			
+			// aapt resource value: 0x7f080017
+			public const int editWidthCabinetArea = 2131230743;
 			
 			// aapt resource value: 0x7f080004
 			public const int layoutContainer = 2131230724;
@@ -184,32 +193,38 @@ namespace SelfEducation.Droid
 			// aapt resource value: 0x7f080000
 			public const int myDrawer = 2131230720;
 			
-			// aapt resource value: 0x7f080008
-			public const int spinner = 2131230728;
-			
-			// aapt resource value: 0x7f08000e
-			public const int textAccountYet = 2131230734;
-			
-			// aapt resource value: 0x7f08000f
-			public const int textLogIn = 2131230735;
-			
-			// aapt resource value: 0x7f080011
-			public const int textRegister = 2131230737;
+			// aapt resource value: 0x7f08000c
+			public const int spinner = 2131230732;
 			
 			// aapt resource value: 0x7f080012
-			public const int textSelectBottoms = 2131230738;
+			public const int textAccountYet = 2131230738;
 			
 			// aapt resource value: 0x7f080007
-			public const int textSelectCabinetDepth = 2131230727;
+			public const int textFirstName = 2131230727;
+			
+			// aapt resource value: 0x7f080009
+			public const int textLastName = 2131230729;
+			
+			// aapt resource value: 0x7f080013
+			public const int textLogIn = 2131230739;
+			
+			// aapt resource value: 0x7f080015
+			public const int textRegister = 2131230741;
+			
+			// aapt resource value: 0x7f080016
+			public const int textSelectBottoms = 2131230742;
+			
+			// aapt resource value: 0x7f08000b
+			public const int textSelectCabinetDepth = 2131230731;
 			
 			// aapt resource value: 0x7f080006
 			public const int textTitlelogIn = 2131230726;
 			
-			// aapt resource value: 0x7f080009
-			public const int textViewEmail = 2131230729;
+			// aapt resource value: 0x7f08000d
+			public const int textViewEmail = 2131230733;
 			
-			// aapt resource value: 0x7f08000b
-			public const int textViewPass = 2131230731;
+			// aapt resource value: 0x7f08000f
+			public const int textViewPass = 2131230735;
 			
 			// aapt resource value: 0x7f080002
 			public const int tvText = 2131230722;
@@ -264,11 +279,17 @@ namespace SelfEducation.Droid
 			// aapt resource value: 0x7f040007
 			public const int EnterEmails = 2130968583;
 			
+			// aapt resource value: 0x7f040017
+			public const int FirstName = 2130968599;
+			
 			// aapt resource value: 0x7f04000e
 			public const int HeightCabinetArea = 2130968590;
 			
 			// aapt resource value: 0x7f040000
 			public const int Hello = 2130968576;
+			
+			// aapt resource value: 0x7f040018
+			public const int LastName = 2130968600;
 			
 			// aapt resource value: 0x7f040003
 			public const int Pass = 2130968579;
@@ -337,20 +358,23 @@ namespace SelfEducation.Droid
 			// aapt resource value: 0x7f070000
 			public const int CustomButton = 2131165184;
 			
-			// aapt resource value: 0x7f070005
-			public const int MyActionBar = 2131165189;
-			
-			// aapt resource value: 0x7f070003
-			public const int MyCustomTheme = 2131165187;
-			
 			// aapt resource value: 0x7f070001
-			public const int StyleHeaderText = 2131165185;
+			public const int CustomEditText = 2131165185;
 			
-			// aapt resource value: 0x7f070002
-			public const int Theme_Splash = 2131165186;
+			// aapt resource value: 0x7f070006
+			public const int MyActionBar = 2131165190;
 			
 			// aapt resource value: 0x7f070004
-			public const int ThemeInTheActionScreen = 2131165188;
+			public const int MyCustomTheme = 2131165188;
+			
+			// aapt resource value: 0x7f070002
+			public const int StyleHeaderText = 2131165186;
+			
+			// aapt resource value: 0x7f070003
+			public const int Theme_Splash = 2131165187;
+			
+			// aapt resource value: 0x7f070005
+			public const int ThemeInTheActionScreen = 2131165189;
 			
 			static Style()
 			{

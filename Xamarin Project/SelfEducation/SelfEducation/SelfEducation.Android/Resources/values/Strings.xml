@@ -40,4 +40,6 @@
     <item>Sales Coordinator</item>
     <item>role 2</item>
   </string-array>
+  <string name="FirstName">First Name</string>
+  <string name="LastName">Last Name</string>
 </resources>

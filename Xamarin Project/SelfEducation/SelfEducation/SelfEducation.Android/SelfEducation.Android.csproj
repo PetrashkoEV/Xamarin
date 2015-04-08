@@ -142,6 +142,7 @@
     <AndroidResource Include="Resources\drawable\splash.png" />
     <AndroidResource Include="Resources\drawable\gradient_backgroung.xml" />
     <AndroidResource Include="Resources\drawable\row.xml" />
+    <AndroidResource Include="Resources\drawable\default_input_background.xml" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\SelfEducation.Business\SelfEducation.Business\SelfEducation.Business.csproj">
