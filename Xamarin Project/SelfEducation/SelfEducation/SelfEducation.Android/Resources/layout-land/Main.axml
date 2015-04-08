@@ -7,7 +7,7 @@
     <RelativeLayout
         android:layout_width="0dip"
         android:layout_height="fill_parent"
-        android:layout_weight="0.15" />
+        android:layout_weight="0.20" />
     <RelativeLayout
         android:layout_width="0dip"
         android:layout_height="fill_parent"
@@ -169,5 +169,5 @@
     <RelativeLayout
         android:layout_width="0dip"
         android:layout_height="fill_parent"
-        android:layout_weight="0.15" />
+        android:layout_weight="0.20" />
 </LinearLayout>
