@@ -42,6 +42,9 @@ namespace SelfEducation.Droid
 			// aapt resource value: 0x7f060000
 			public const int collor_arrays = 2131099648;
 			
+			// aapt resource value: 0x7f060003
+			public const int role_arrays = 2131099651;
+			
 			static Array()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -145,29 +148,32 @@ namespace SelfEducation.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f08000b
-			public const int LogIn = 2131230731;
+			// aapt resource value: 0x7f080010
+			public const int LogIn = 2131230736;
+			
+			// aapt resource value: 0x7f08000d
+			public const int RegisterButton = 2131230733;
 			
 			// aapt resource value: 0x7f080005
 			public const int Row = 2131230725;
 			
-			// aapt resource value: 0x7f080013
-			public const int Start = 2131230739;
+			// aapt resource value: 0x7f080015
+			public const int Start = 2131230741;
 			
 			// aapt resource value: 0x7f080001
 			public const int content_frame = 2131230721;
 			
-			// aapt resource value: 0x7f080012
-			public const int editHeightCabinetArea = 2131230738;
-			
-			// aapt resource value: 0x7f080008
-			public const int editTextEmail = 2131230728;
+			// aapt resource value: 0x7f080014
+			public const int editHeightCabinetArea = 2131230740;
 			
 			// aapt resource value: 0x7f08000a
-			public const int editTextPass = 2131230730;
+			public const int editTextEmail = 2131230730;
 			
-			// aapt resource value: 0x7f080011
-			public const int editWidthCabinetArea = 2131230737;
+			// aapt resource value: 0x7f08000c
+			public const int editTextPass = 2131230732;
+			
+			// aapt resource value: 0x7f080013
+			public const int editWidthCabinetArea = 2131230739;
 			
 			// aapt resource value: 0x7f080004
 			public const int layoutContainer = 2131230724;
@@ -178,29 +184,32 @@ namespace SelfEducation.Droid
 			// aapt resource value: 0x7f080000
 			public const int myDrawer = 2131230720;
 			
-			// aapt resource value: 0x7f08000f
-			public const int spinner = 2131230735;
-			
-			// aapt resource value: 0x7f08000c
-			public const int textAccountYet = 2131230732;
-			
-			// aapt resource value: 0x7f08000d
-			public const int textRegister = 2131230733;
-			
-			// aapt resource value: 0x7f080010
-			public const int textSelectBottoms = 2131230736;
+			// aapt resource value: 0x7f080008
+			public const int spinner = 2131230728;
 			
 			// aapt resource value: 0x7f08000e
-			public const int textSelectCabinetDepth = 2131230734;
+			public const int textAccountYet = 2131230734;
+			
+			// aapt resource value: 0x7f08000f
+			public const int textLogIn = 2131230735;
+			
+			// aapt resource value: 0x7f080011
+			public const int textRegister = 2131230737;
+			
+			// aapt resource value: 0x7f080012
+			public const int textSelectBottoms = 2131230738;
+			
+			// aapt resource value: 0x7f080007
+			public const int textSelectCabinetDepth = 2131230727;
 			
 			// aapt resource value: 0x7f080006
 			public const int textTitlelogIn = 2131230726;
 			
-			// aapt resource value: 0x7f080007
-			public const int textViewEmail = 2131230727;
-			
 			// aapt resource value: 0x7f080009
-			public const int textViewPass = 2131230729;
+			public const int textViewEmail = 2131230729;
+			
+			// aapt resource value: 0x7f08000b
+			public const int textViewPass = 2131230731;
 			
 			// aapt resource value: 0x7f080002
 			public const int tvText = 2131230722;
@@ -273,8 +282,14 @@ namespace SelfEducation.Droid
 			// aapt resource value: 0x7f040009
 			public const int SelectCollor = 2130968585;
 			
+			// aapt resource value: 0x7f040016
+			public const int SelectRole = 2130968598;
+			
 			// aapt resource value: 0x7f040006
 			public const int Start = 2130968582;
+			
+			// aapt resource value: 0x7f040013
+			public const int TitleCreateAccount = 2130968595;
 			
 			// aapt resource value: 0x7f040008
 			public const int TitleSetupQuestionnaire = 2130968584;
@@ -297,8 +312,11 @@ namespace SelfEducation.Droid
 			// aapt resource value: 0x7f040010
 			public const int open_drawer = 2130968592;
 			
-			// aapt resource value: 0x7f040013
-			public const int textAccountYet = 2130968595;
+			// aapt resource value: 0x7f040014
+			public const int textAccountYet = 2130968596;
+			
+			// aapt resource value: 0x7f040015
+			public const int textAlredyAccount = 2130968597;
 			
 			// aapt resource value: 0x7f040012
 			public const int textRegister = 2130968594;

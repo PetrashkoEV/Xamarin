@@ -32,5 +32,12 @@
   <string name="open_drawer">Open Drawer</string>
   <string name="close_drawer">Close Drawer</string>
   <string name="textRegister">CREATE ACCOUNT</string>
+  <string name="TitleCreateAccount">Create Your Account</string>
   <string name="textAccountYet">Don\'t have an account yet?</string>
+  <string name="textAlredyAccount">Alredy have an account?</string>
+  <string name="SelectRole">Role</string>
+  <string-array name="role_arrays">
+    <item>Sales Coordinator</item>
+    <item>role 2</item>
+  </string-array>
 </resources>

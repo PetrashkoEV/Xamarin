@@ -21,6 +21,21 @@ namespace SelfEducation.Droid.Activities
 
             // Create your application here
             SetContentView(Resource.Layout.CreateAccount);
+
+            var logInButton = FindViewById<TextView>(Resource.Id.textLogIn);
+
+            logInButton.Click += (sender, e) =>
+            {
+                var intent = new Intent(this, typeof(MainActivity));
+                StartActivity(intent);
+            };
+
+            var registeButton = FindViewById<Button>(Resource.Id.RegisterButton);
+            registeButton.Click += (sender, e) =>
+            {
+                var intent = new Intent(this, typeof(SetupQuestionnaireActivity));
+                StartActivity(intent);
+            };
         }
     }
 }
